@@ -8,7 +8,7 @@ from coder.crew import Coder
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
-assignment = "Write a program that says Hello World"
+assignment = "Write a program that will find the closest prime number given any value of any given number by the user"
 
 def run():
     """

@@ -17,7 +17,7 @@ class Coder():
             verbose=True,
             allow_code_execution=True,
             code_execution_mode="safe", # Allows for this agent to run it in a docker image/environment
-            max_execution_time=30,
+            max_execution_time=120,
             max_retry_limit=5,
         )
 
